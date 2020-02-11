@@ -1,0 +1,73 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    margin: 0px;
+    background-image: linear-gradient(to right, rgb(114,85,203),rgb(196,81,193));
+  }
+
+#kont{
+    height:600px;
+    width:961px;
+    background-color: white;
+    margin-left:210px;
+    margin-top:30px;
+    border-radius: 20px;
+    
+}
+#err{
+    width:260px;
+    height:20px;
+    margin-top:60px;
+    color:red;
+    text-align: center;
+}
+img {
+    
+    margin-top:150px;
+    margin-left:100px;
+}
+form{
+    margin-left:600px;
+   
+}
+form input[type=text]{
+width:250px;
+height:50px;
+border-radius: 20px;
+border:1px solid white;
+background-color: rgb(230,230,230);
+padding-left:10px;
+
+ 
+}
+form input[type=password]{
+    width:250px;
+    height:50px;
+    border-radius: 20px;
+    border:1px solid white;
+    font-style: bold;
+    background-color: rgb(230,230,230);
+    padding-left:10px;
+    
+     
+}
+::-webkit-input-placeholder { 
+    text-align: justify;
+    font-size: 20px;
+}
+
+h1{
+    margin-top:-350px;
+    padding-left:33px;
+}
+
+#dugme{
+position: absolute;
+height:50px;
+width:250px;
+border-radius: 20px;
+border:1px solid white;
+background-color: rgb(87,184,70);
+color: white;
+}

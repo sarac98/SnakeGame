@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+   
+</head>
+<body>
+        
+    <div id="kont">
+        <input type="button" id="ng" value="Nova igra" onclick="location.reload()">
+        
+        <br><br>
+        <input type="button" id="ng" value="Opcije" onclick="Opcije()"><br><br>
+        
+        <label id="lb">
+        <input type="radio" name="dug" id="krozzid">ZID
+        <input type="radio" name="dug" id="bezprolaza">KROZ ZID<br>
+        
+    </label>
+  
+    </div>
+    
+    <p id="score"></p>
+    <div id="skor"></div>
+    
+    
+    <canvas id="kanvas" height="600" width="600"></canvas>
+    <script src='script.js'></script> 
+
+    <style>
+    
+    #kanvas{
+       
+        margin-top:0px;
+    
+        
+    }
+
+    #score{
+        position: absolute;
+        
+        width:220px;
+        height:60px;
+        font-size: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top:10px;
+        margin-left:650px;
+        
+    }
+    div{
+    position: absolute;
+    margin-top:100px;
+    margin-left: 650px;
+
+    }
+    
+
+    </style>
+  
+  <p id="h"></p>
+    
+</body>
+</html>
